@@ -1,0 +1,32 @@
+# Site settings
+title: Magento 2 Bootcamp Cheatcheet
+email: ray@supportdesk.nu
+description: >
+  Magento 2 Bootcamp Cheatcheet
+logo: "/assets/images/logo.jpg"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cheatsheet.nu/" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+name: 'Ray Bogman'
+bio: >
+  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
+  Ne solet nostrum complectitur pri, vis ut inani populo.
+author_image: "/assets/images/author.jpg"
+twitter_username: raybogman
+github_username:  raybogman
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
