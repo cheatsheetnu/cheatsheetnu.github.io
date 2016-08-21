@@ -24,7 +24,6 @@ kramdown:
 
 gems:
   - jekyll-paginate
-  - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
