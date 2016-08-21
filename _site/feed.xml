@@ -4,68 +4,60 @@
     <title>Magento 2 Bootcamp Cheatcheet</title>
     <description>Magento 2 Bootcamp Cheatcheet
 </description>
-    <link>https://cheatsheet.nu//</link>
-    <atom:link href="https://cheatsheet.nu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Aug 2016 14:27:24 +0200</pubDate>
-    <lastBuildDate>Sun, 21 Aug 2016 14:27:24 +0200</lastBuildDate>
+    <link>https://cheatsheet.nu/</link>
+    <atom:link href="https://cheatsheet.nu/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 21 Aug 2016 19:37:19 +0200</pubDate>
+    <lastBuildDate>Sun, 21 Aug 2016 19:37:19 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>My New Post</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit!&lt;/p&gt;
-
-&lt;amp-img width=&quot;600&quot; height=&quot;500&quot; layout=&quot;responsive&quot; src=&quot;http://lorempixel.com/600/500/transport&quot;&gt;&lt;/amp-img&gt;
-
-&lt;p&gt;Nulla dapibus vestibulum ligula in sodales. Phasellus eu metus quam. Sed id varius diam. Morbi pellentesque lorem vitae ex commodo, sed dapibus ex dignissim. Etiam facilisis pellentesque gravida. Sed tempus diam sed odio tempor, tristique elementum erat condimentum. Ut volutpat dui ex, a auctor dolor pretium eget.&lt;/p&gt;
-
-&lt;p&gt;Vivamus nec mauris suscipit enim viverra tristique ut eget risus. Vestibulum ullamcorper at sem eu sodales. Praesent felis tellus, condimentum vitae purus id, consectetur interdum urna. Pellentesque laoreet non arcu volutpat euismod. Suspendisse sed enim non ex interdum sodales. Quisque vitae vestibulum turpis. Aenean nec est dolor.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Pellentesque quis mi at erat iaculis cursus. Phasellus ligula neque, pulvinar sed malesuada id, feugiat ac magna. Proin sed scelerisque metus. Pellentesque mi augue, egestas nec ante a, faucibus ullamcorper enim. Sed nisi felis, rutrum imperdiet aliquam nec, placerat vel odio. Nulla quis urna ut risus aliquam tempor.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;amp-img width=&quot;600&quot; height=&quot;300&quot; layout=&quot;responsive&quot; src=&quot;http://lorempixel.com/600/300/transport&quot;&gt;&lt;/amp-img&gt;
-
-&lt;p&gt;Nulla mi risus, lobortis quis lectus vel, gravida eleifend lacus. Proin mattis odio elit, nec vehicula diam varius vitae. Nunc a ipsum at justo rhoncus mattis. Proin auctor lorem quis libero viverra aliquam. Suspendisse quis tristique sapien. Integer eu felis vel orci dignissim suscipit pharetra vitae nisl. Ut viverra sed enim quis pretium. Etiam auctor a ante sed pharetra.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 13 Mar 2016 00:00:00 +0100</pubDate>
-        <link>https://cheatsheet.nu//2016/03/13/my-new-post.html</link>
-        <guid isPermaLink="true">https://cheatsheet.nu//2016/03/13/my-new-post.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ea eam nibh persecuti, partem habemus nominavi</title>
-        <description>&lt;p&gt;At labitur probatus eum, qui modo idque partem ne, ea has oratio sanctus cotidieque. Dicta persecuti sit ex. Discere facilis recteque sit no, in eripuit volumus adversarium vim. Ad sed meis nulla accusata. Ex posse accusam maluisset mei, id vix ignota cetero inimicus.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Nec amet pericula dissentiet…&lt;/p&gt;
-
-  &lt;p&gt;Nam liber tritani ei, urbanitas tincidunt usu et. Odio voluptua gubergren at cum. An porro mucius tibique nam, cu usu everti dignissim assueverit. Docendi patrioque constituto te sit. Qui lorem soluta ea, commune deserunt sed id. Accusam commune cotidieque his ea.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pro hinc copiosae an, ad ius salutandi expetendis. Quo suavitate intellegat forensibus an. Sonet meliore consetetur te sea, in eam decore utroque, dicat verear et sit. Pro aperiam pertinax splendide id, IUS STET ELEIFEND INTELLEGAM ID.&lt;/p&gt;
-
-&lt;amp-img width=&quot;600&quot; height=&quot;300&quot; layout=&quot;responsive&quot; src=&quot;http://lorempixel.com/600/300/people&quot;&gt;&lt;/amp-img&gt;
-
-&lt;p&gt;Ea ullamcorper intellegebat pri!&lt;/p&gt;
-
-&lt;h3 id=&quot;vix-cu-alienum-evertitur&quot;&gt;Vix cu alienum evertitur&lt;/h3&gt;
-
-&lt;p&gt;Mea suas vituperatoribus et, virtute corpora quaestio cum ut. Ne solet nostrum complectitur pri, vis ut inani populo. Ad eligendi vituperata sadipscing pro, ad mea modo meis philosophia, an eos consul impedit qualisque. Eruditi reprimique id eum, in tincidunt percipitur vis.&lt;/p&gt;
-
-&lt;amp-youtube data-videoid=&quot;lBTCB7yLs8Y&quot; layout=&quot;responsive&quot; width=&quot;480&quot; height=&quot;270&quot;&gt;&lt;/amp-youtube&gt;
-
-&lt;p&gt;Ne ius nominavi verterem. Principes voluptaria pro at. Sint mediocrem cum ea, his purto dicat scaevola ad. Per quem magna gubergren id, pri in noluisse salutatus imperdiet. In postea consequat percipitur vis, nam postea commodo lobortis an, ut atqui antiopam eloquentiam eum.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Erat officiis probatus eam ea, nibh legere insolens ad sit. Nec alii dicam ad, cibo regione per no. Verear invenire ut usu, nec mazim euripidis in. Molestie placerat id quo, quo dissentias complectitur ex. Ex probatus principes efficiantur pro, possit perfecto ut eum. Vix ei summo perpetua, enim adhuc vix ei, sed in homero delicata periculis. Praesent intellegat qui ne.&lt;/p&gt;
-&lt;/blockquote&gt;
+        <title>VI Commands</title>
+        <description>&lt;h2&gt;&lt;a name=&quot;vi&quot;&gt;VI Commands&lt;/a&gt;&lt;/h2&gt;
+&lt;h3&gt;Basics&lt;/h3&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;:e filename&lt;/td&gt;&lt;td&gt;Open &lt;em&gt;filename&lt;/em&gt; for edition&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:w&lt;/td&gt;&lt;td&gt;Save file&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:q&lt;/td&gt;&lt;td&gt;Exit Vim&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:w!&lt;/td&gt;&lt;td&gt;Write file and quit&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2&gt;Search&lt;/h2&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;/word&lt;/td&gt;&lt;td&gt;Search &lt;em&gt;word&lt;/em&gt; from top to bottom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;?word&lt;/td&gt;&lt;td&gt;Search &lt;em&gt;word&lt;/em&gt; from bottom to top&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/jo[ha]n&lt;/td&gt;&lt;td&gt;Search &lt;em&gt;john&lt;/em&gt; or &lt;em&gt;joan&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/\&amp;lt; the&lt;/td&gt;&lt;td&gt;Search the, theatre or &lt;em&gt;then&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/the\&amp;gt;&lt;/td&gt;&lt;td&gt;Search &lt;em&gt;the&lt;/em&gt; or &lt;em&gt;breathe&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/\&amp;lt; the\&amp;gt;&lt;/td&gt;&lt;td&gt;Search &lt;em&gt;the&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/\&amp;lt; &amp;lt;/em&amp;gt;¦.\&amp;gt;&lt;/td&gt;&lt;td&gt;Search all words of 4 letters&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/\/&lt;/td&gt;&lt;td&gt;Search &lt;em&gt;fred&lt;/em&gt; but not &lt;em&gt;alfred&lt;/em&gt; or &lt;em&gt;frederick&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/fred\|joe&lt;/td&gt;&lt;td&gt;Search &lt;em&gt;fred&lt;/em&gt; or &lt;em&gt;joe&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/\&amp;lt;\d\d\d\d\&amp;gt;&lt;/td&gt;&lt;td&gt;Search exactly 4 digits&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/^\n\{3}&lt;/td&gt;&lt;td&gt;Find 3 empty lines&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:bufdo /searchstr/&lt;/td&gt;&lt;td&gt;Search in all open files&lt;/td&gt;&amp;lt;/tr&amp;lt;/table&amp;gt;
+&lt;h2&gt;Replace&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;:%s/old/new/g&lt;/td&gt;&lt;td&gt;Replace all occurences of &lt;em&gt;old&lt;/em&gt; by &lt;em&gt;new&lt;/em&gt; in file&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/old/new/gw&lt;/td&gt;&lt;td&gt;Replace all occurences with confirmation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:2,35s/old/new/g&lt;/td&gt;&lt;td&gt;Replace all occurences between lines 2 and 35&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:5,$s/old/new/g&lt;/td&gt;&lt;td&gt;Replace all occurences from line 5 to EOF&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/^/hello/g&lt;/td&gt;&lt;td&gt;Replace the begining of each line by &lt;em&gt;hello&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/$/Harry/g&lt;/td&gt;&lt;td&gt;Replace the end of each line by &lt;em&gt;Harry&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/onward/forward/gi&lt;/td&gt;&lt;td&gt;Replace &lt;em&gt;onward&lt;/em&gt; by &lt;em&gt;forward&lt;/em&gt;, case unsensitive&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/ *$//g&lt;/td&gt;&lt;td&gt;Delete all white spaces&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:g/string/d&lt;/td&gt;&lt;td&gt;Delete all lines containing &lt;em&gt;string&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:v/string/d&lt;/td&gt;&lt;td&gt;Delete all lines containing which didn&amp;#8217;t contain &lt;em&gt;string&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:s/Bill/Steve/&lt;/td&gt;&lt;td&gt;Replace the first occurence of &lt;em&gt;Bill&lt;/em&gt; by &lt;em&gt;Steve&lt;/em&gt; in current line&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:s/Bill/Steve/g&lt;/td&gt;&lt;td&gt;Replace &lt;em&gt;Bill&lt;/em&gt; by &lt;em&gt;Steve&lt;/em&gt; in current line&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/Bill/Steve/g&lt;/td&gt;&lt;td&gt;Replace &lt;em&gt;Bill&lt;/em&gt; by &lt;em&gt;Steve&lt;/em&gt; in all the file&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/\r//g&lt;/td&gt;&lt;td&gt;Delete DOS carriage returns (^M)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/\r/\r/g&lt;/td&gt;&lt;td&gt;Transform DOS carriage returns in returns&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s#&amp;lt;[^&amp;gt;]\+&amp;gt;##g&lt;/td&gt;&lt;td&gt;Delete HTML tags but keeps text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/^\(.*\)\n\1$/\1/&lt;/td&gt;&lt;td&gt;Delete lines which appears twice&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ctrl+a&lt;/td&gt;&lt;td&gt;Increment number under the cursor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ctrl+x&lt;/td&gt;&lt;td&gt;Decrement number under cursor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ggVGg?&lt;/td&gt;&lt;td&gt;Change text to Rot13&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h2 id=&quot;casse&quot;&gt;Case&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;Vu&lt;/td&gt;&lt;td&gt;Lowercase line&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VU&lt;/td&gt;&lt;td&gt;Uppercase line&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;g~~&lt;/td&gt;&lt;td&gt;Invert case&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;vEU&lt;/td&gt;&lt;td&gt;Switch word to uppercase&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;vE~&lt;/td&gt;&lt;td&gt;Modify word case&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ggguG&lt;/td&gt;&lt;td&gt;Set all text to lowercase&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:set ignorecase&lt;/td&gt;&lt;td&gt;Ignore case in searches&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:set smartcase&lt;/td&gt;&lt;td&gt;Ignore case in searches excepted if an uppercase letter is used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/\&amp;lt;./\u&amp;amp;/g&lt;/td&gt;&lt;td&gt;Sets first letter of each word to uppercase&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/\&amp;lt;./\l&amp;amp;/g&lt;/td&gt;&lt;td&gt;Sets first letter of each word to lowercase&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/.*/\u&amp;amp;&lt;/td&gt;&lt;td&gt;Sets first letter of each line to uppercase&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:%s/.*/\l&amp;amp;&lt;/td&gt;&lt;td&gt;Sets first letter of each line to lowercase&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2&gt;Read/Write files&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;:1,10 w outfile&lt;/td&gt;&lt;td&gt;Saves lines 1 to 10 in &lt;em&gt;outfile&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:1,10 w &amp;gt;&amp;gt; outfile&lt;/td&gt;&lt;td&gt;Appends lines 1 to 10 to &lt;em&gt;outfile&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:r infile&lt;/td&gt;&lt;td&gt;Insert the content of &lt;em&gt;infile&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:23r infile&lt;/td&gt;&lt;td&gt;Insert the content of &lt;em&gt;infile&lt;/em&gt; under line 23&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;explorateur&quot;&gt;File explorer&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;:e .&lt;/td&gt;&lt;td&gt;Open integrated file explorer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:Sex&lt;/td&gt;&lt;td&gt;Split window and open integrated file explorer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:browse e&lt;/td&gt;&lt;td&gt;Graphical file explorer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:ls&lt;/td&gt;&lt;td&gt;List buffers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:cd ..&lt;/td&gt;&lt;td&gt;Move to parent directory&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:args&lt;/td&gt;&lt;td&gt;List files&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:args *.php&lt;/td&gt;&lt;td&gt;Open file list&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:grep expression *.php&lt;/td&gt;&lt;td&gt;Returns a list of .php files contening &lt;em&gt;expression&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;gf&lt;/td&gt;&lt;td&gt;Open file name under cursor&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;unix&quot;&gt;Interact with Unix&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;:!pwd&lt;/td&gt;&lt;td&gt;Execute the &lt;em&gt;pwd&lt;/em&gt; unix command, then returns to Vi&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;!!pwd&lt;/td&gt;&lt;td&gt;Execute the &lt;em&gt;pwd&lt;/em&gt; unix command and insert output in file&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:sh&lt;/td&gt;&lt;td&gt;Temporary returns to Unix&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;$exit&lt;/td&gt;&lt;td&gt;Retourns to Vi&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;alignement&quot;&gt;Alignment&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;:%!fmt&lt;/td&gt;&lt;td&gt;Align all lines&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;!}fmt&lt;/td&gt;&lt;td&gt;Align all lines at the current position&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5!!fmt&lt;/td&gt;&lt;td&gt;Align the next 5 lines&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;onglets&quot;&gt;Tabs&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;:tabnew&lt;/td&gt;&lt;td&gt;Creates a new tab&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;gt&lt;/td&gt;&lt;td&gt;Show next tab&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:tabfirst&lt;/td&gt;&lt;td&gt;Show first tab&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:tablast&lt;/td&gt;&lt;td&gt;Show last tab&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:tabm n(position)&lt;/td&gt;&lt;td&gt;Rearrange tabs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:tabdo %s/foo/bar/g&lt;/td&gt;&lt;td&gt;Execute a command in all tabs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:tab ball&lt;/td&gt;&lt;td&gt;Puts all open files in tabs&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;partage&quot;&gt;Window spliting&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;:e filename&lt;/td&gt;&lt;td&gt;Edit &lt;em&gt;filename&lt;/em&gt; in current window&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:split filename&lt;/td&gt;&lt;td&gt;Split the window and open &lt;em&gt;filename&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ctrl-w up arrow&lt;/td&gt;&lt;td&gt;Puts cursor in top window&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ctrl-w ctrl-w&lt;/td&gt;&lt;td&gt;Puts cursor in next window&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ctrl-w_&lt;/td&gt;&lt;td&gt;Maximise current window&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ctrl-w=&lt;/td&gt;&lt;td&gt;Gives the same size to all windows&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10 ctrl-w+&lt;/td&gt;&lt;td&gt;Add 10 lines to current window&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:vsplit file&lt;/td&gt;&lt;td&gt;Split window vertically&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:sview file&lt;/td&gt;&lt;td&gt;Same as &lt;strong&gt;:split&lt;/strong&gt; in readonly mode&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:hide&lt;/td&gt;&lt;td&gt;Close current window&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:&amp;#173;nly&lt;/td&gt;&lt;td&gt;Close all windows, excepted current&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:b 2&lt;/td&gt;&lt;td&gt;Open #2 in this window&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;completion&quot;&gt;Auto-completion&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;Ctrl+n Ctrl+p (in insert mode)&lt;/td&gt;&lt;td&gt;Complete word&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ctrl+x Ctrl+l&lt;/td&gt;&lt;td&gt;Complete line&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:set dictionary=dict&lt;/td&gt;&lt;td&gt;Define &lt;em&gt;dict&lt;/em&gt; as a dictionnary&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ctrl+x Ctrl+k&lt;/td&gt;&lt;td&gt;Complete with dictionnary&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;marqueurs&quot;&gt;Marks&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;mk&lt;/td&gt;&lt;td&gt;Marks current position as &lt;em&gt;k&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;/em&amp;gt;˜k&lt;/td&gt;&lt;td&gt;Moves cursor to mark &lt;em&gt;k&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;d&amp;lt;/em&amp;gt;™k&lt;/td&gt;&lt;td&gt;Delete all until mark &lt;em&gt;k&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;abbr&quot;&gt;Abbreviations&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;:ab mail mail@provider.org&lt;/td&gt;&lt;td&gt;Define &lt;em&gt;mail&lt;/em&gt; as abbreviation of &lt;em&gt;mail@provider.org&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;indentation&quot;&gt;Text indent&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;:set autoindent&lt;/td&gt;&lt;td&gt;Turn on auto-indent&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:set smartindent&lt;/td&gt;&lt;td&gt;Turn on intelligent auto-indent&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:set shiftwidth=4&lt;/td&gt;&lt;td&gt;Defines 4 spaces as indent size&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ctrl-t, ctrl-d&lt;/td&gt;&lt;td&gt;Indent/un-indent in insert mode&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;gt;&amp;gt;&lt;/td&gt;&lt;td&gt;Indent&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;lt;&amp;lt;&lt;/td&gt;&lt;td&gt;Un-indent&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;coloration&quot;&gt;Syntax highlighting&lt;/h2&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;:syntax on&lt;/td&gt;&lt;td&gt;Turn on syntax highlighting&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;:syntax off&lt;/td&gt;&lt;td&gt;Turn off syntax highlighting&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;:set syntax=perl&lt;/td&gt;&lt;td&gt;Force syntax highlighting&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;&lt;/table&gt;
 </description>
         <pubDate>Tue, 08 Mar 2016 00:00:00 +0100</pubDate>
-        <link>https://cheatsheet.nu//2016/03/08/example-post.html</link>
-        <guid isPermaLink="true">https://cheatsheet.nu//2016/03/08/example-post.html</guid>
+        <link>https://cheatsheet.nu/2016/03/08/example-post.html</link>
+        <guid isPermaLink="true">https://cheatsheet.nu/2016/03/08/example-post.html</guid>
         
         
       </item>

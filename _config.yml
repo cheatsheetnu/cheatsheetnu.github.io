@@ -5,14 +5,13 @@ description: >
   Magento 2 Bootcamp Cheatcheet
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cheatsheet.nu/" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+url: "https://cheatsheet.nu" # the base hostname & protocol for your site
 
 name: 'Ray Bogman'
-bio: >
-  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
-  Ne solet nostrum complectitur pri, vis ut inani populo.
-author_image: "/assets/images/author.jpg"
+bio: > 
+  Ray Bogman is an IT professional and Magento evangelist from the Netherlands.
+
+author_image: "/assets/images/raybogman.png"
 twitter_username: raybogman
 github_username:  raybogman
 
