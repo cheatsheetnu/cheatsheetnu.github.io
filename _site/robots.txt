@@ -1,4 +1,0 @@
-Sitemap: https://cheatcheet.nu/sitemap.xml
-
-User-agent: *
-
