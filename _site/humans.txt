@@ -1,0 +1,11 @@
+# humanstxt.org
+
+/* TEAM */
+	Name: Ray Bogman
+	Contact: ray [at] supportdesk.nu
+	Twitter: @raybogman
+
+/* SITE */
+	Last update: 2016/07/27
+	Language: English
+	Doctype: HTML5
