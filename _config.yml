@@ -3,6 +3,8 @@ title: Magento 2 Bootcamp Cheatcheet
 email: ray@supportdesk.nu
 description: >
   Magento 2 Bootcamp Cheatcheet
+description-short: >
+  Learn, Act, Commit
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cheatsheet.nu" # the base hostname & protocol for your site
