@@ -1,6 +1,8 @@
 ---
-layout: post
-title: VI Commands
+title: "VI Commands"
+bg: white
+color: black
+style: center
 ---
 
 <h2><a name="vi">VI Commands</a></h2>
