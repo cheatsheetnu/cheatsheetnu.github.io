@@ -3,132 +3,149 @@ layout: post
 title: VI Commands
 ---
 
-<h2><a name="vi">VI Commands</a></h2>
-<h3>Basics</h3>
-<table>
-<tr>
-<td>:e filename</td><td>Open <em>filename</em> for edition</td>
-</tr>
-<tr>
-<td>:w</td><td>Save file</td></tr><tr><td
->:q</td><td>Exit Vim</td></tr><tr><td
->:w!</td><td>Write file and quit</td></tr></table>
-<h2>Search</h2>
-<table>
-<tr><td
->/word</td><td>Search <em>word</em> from top to bottom</td></tr><tr><td
->?word</td><td>Search <em>word</em> from bottom to top</td></tr><tr><td
->/jo[ha]n</td><td>Search <em>john</em> or <em>joan</em></td></tr><tr><td
->/\&lt; the</td><td>Search the, theatre or <em>then</em></td></tr><tr><td
->/the\&gt;</td><td>Search <em>the</em> or <em>breathe</em></td></tr><tr><td
->/\&lt; the\&gt;</td><td>Search <em>the</em></td></tr><tr><td
->/\&lt; </em>¦.\&gt;</td><td>Search all words of 4 letters</td></tr><tr><td
->/\/</td><td>Search <em>fred</em> but not <em>alfred</em> or <em>frederick</em></td></tr><tr><td
->/fred\|joe</td><td>Search <em>fred</em> or <em>joe</em></td></tr><tr><td
->/\&lt;\d\d\d\d\&gt;</td><td>Search exactly 4 digits</td></tr><tr><td
->/^\n\{3}</td><td>Find 3 empty lines</td></tr><tr><td
->:bufdo /searchstr/</td><td>Search in all open files</td></tr</table>
-<h2>Replace</h2>
-<table><tr><td>:%s/old/new/g</td><td>Replace all occurences of <em>old</em> by <em>new</em> in file</td></tr><tr><td
->:%s/old/new/gw</td><td>Replace all occurences with confirmation</td></tr><tr><td
->:2,35s/old/new/g</td><td>Replace all occurences between lines 2 and 35</td></tr><tr><td
->:5,$s/old/new/g</td><td>Replace all occurences from line 5 to EOF</td></tr><tr><td
->:%s/^/hello/g</td><td>Replace the begining of each line by <em>hello</em></td></tr><tr><td
->:%s/$/Harry/g</td><td>Replace the end of each line by <em>Harry</em></td></tr><tr><td
->:%s/onward/forward/gi</td><td>Replace <em>onward</em> by <em>forward</em>, case unsensitive</td></tr><tr><td
->:%s/ *$//g</td><td>Delete all white spaces</td></tr><tr><td
->:g/string/d</td><td>Delete all lines containing <em>string</em></td></tr><tr><td
->:v/string/d</td><td>Delete all lines containing which didn&#8217;t contain <em>string</em></td></tr><tr><td
->:s/Bill/Steve/</td><td>Replace the first occurence of <em>Bill</em> by <em>Steve</em> in current line</td></tr><tr><td
->:s/Bill/Steve/g</td><td>Replace <em>Bill</em> by <em>Steve</em> in current line</td></tr><tr><td
->:%s/Bill/Steve/g</td><td>Replace <em>Bill</em> by <em>Steve</em> in all the file</td></tr><tr><td
->:%s/\r//g</td><td>Delete DOS carriage returns (^M)</td></tr><tr><td
->:%s/\r/\r/g</td><td>Transform DOS carriage returns in returns</td></tr><tr><td
->:%s#&lt;[^&gt;]\+&gt;##g</td><td>Delete HTML tags but keeps text</td></tr><tr><td
->:%s/^\(.*\)\n\1$/\1/</td><td>Delete lines which appears twice</td></tr><tr><td
->Ctrl+a</td><td>Increment number under the cursor</td></tr><tr><td
->Ctrl+x</td><td>Decrement number under cursor</td></tr><tr><td
->ggVGg?</td><td>Change text to Rot13</td></tr></table><h2 id="casse">Case</h2>
-<table><tr><td
->Vu</td><td>Lowercase line</td></tr><tr><td
->VU</td><td>Uppercase line</td></tr><tr><td
->g~~</td><td>Invert case</td></tr><tr><td
->vEU</td><td>Switch word to uppercase</td></tr><tr><td
->vE~</td><td>Modify word case</td></tr><tr><td
->ggguG</td><td>Set all text to lowercase</td></tr><tr><td
->:set ignorecase</td><td>Ignore case in searches</td></tr><tr><td
->:set smartcase</td><td>Ignore case in searches excepted if an uppercase letter is used</td></tr><tr><td
->:%s/\&lt;./\u&amp;/g</td><td>Sets first letter of each word to uppercase</td></tr><tr><td
->:%s/\&lt;./\l&amp;/g</td><td>Sets first letter of each word to lowercase</td></tr><tr><td
->:%s/.*/\u&amp;</td><td>Sets first letter of each line to uppercase</td></tr><tr><td
->:%s/.*/\l&amp;</td><td>Sets first letter of each line to lowercase</td></tr></table>
-<h2>Read/Write files</h2>
-<table><tr><td>:1,10 w outfile</td><td>Saves lines 1 to 10 in <em>outfile</em></td></tr><tr><td
->:1,10 w &gt;&gt; outfile</td><td>Appends lines 1 to 10 to <em>outfile</em></td></tr><tr><td
->:r infile</td><td>Insert the content of <em>infile</em></td></tr><tr><td
->:23r infile</td><td>Insert the content of <em>infile</em> under line 23</td></tr></table>
-<h2 id="explorateur">File explorer</h2>
-<table><tr><td
->:e .</td><td>Open integrated file explorer</td></tr><tr><td
->:Sex</td><td>Split window and open integrated file explorer</td></tr><tr><td
->:browse e</td><td>Graphical file explorer</td></tr><tr><td
->:ls</td><td>List buffers</td></tr><tr><td
->:cd ..</td><td>Move to parent directory</td></tr><tr><td
->:args</td><td>List files</td></tr><tr><td
->:args *.php</td><td>Open file list</td></tr><tr><td
->:grep expression *.php</td><td>Returns a list of .php files contening <em>expression</em></td></tr><tr><td
->gf</td><td>Open file name under cursor</td></tr></table>
-<h2 id="unix">Interact with Unix</h2>
-<table><tr><td>:!pwd</td><td>Execute the <em>pwd</em> unix command, then returns to Vi</td></tr>
-<tr><td>!!pwd</td><td>Execute the <em>pwd</em> unix command and insert output in file</td></tr><tr><td
->:sh</td><td>Temporary returns to Unix</td></tr><tr><td
->$exit</td><td>Retourns to Vi</td></tr></table>
-<h2 id="alignement">Alignment</h2>
-<table><tr><td>:%!fmt</td><td>Align all lines</td></tr><tr><td
->!}fmt</td><td>Align all lines at the current position</td></tr><tr><td
->5!!fmt</td><td>Align the next 5 lines</td></tr></table>
-<h2 id="onglets">Tabs</h2>
-<table><tr><td>:tabnew</td><td>Creates a new tab</td></tr><tr><td
->gt</td><td>Show next tab</td></tr><tr><td
->:tabfirst</td><td>Show first tab</td></tr><tr><td
->:tablast</td><td>Show last tab</td></tr><tr><td
->:tabm n(position)</td><td>Rearrange tabs</td></tr><tr><td
->:tabdo %s/foo/bar/g</td><td>Execute a command in all tabs</td></tr><tr><td
->:tab ball</td><td>Puts all open files in tabs</td></tr></table>
-<h2 id="partage">Window spliting</h2>
-<table><tr><td>:e filename</td><td>Edit <em>filename</em> in current window</td></tr><tr><td
->:split filename</td><td>Split the window and open <em>filename</em></td></tr><tr><td
->ctrl-w up arrow</td><td>Puts cursor in top window</td></tr><tr><td
->ctrl-w ctrl-w</td><td>Puts cursor in next window</td></tr><tr><td
->ctrl-w_</td><td>Maximise current window</td></tr><tr><td
->ctrl-w=</td><td>Gives the same size to all windows</td></tr><tr><td
->10 ctrl-w+</td><td>Add 10 lines to current window</td></tr><tr><td
->:vsplit file</td><td>Split window vertically</td></tr><tr><td
->:sview file</td><td>Same as <strong>:split</strong> in readonly mode</td></tr><tr><td
->:hide</td><td>Close current window</td></tr><tr><td
->:&#173;nly</td><td>Close all windows, excepted current</td></tr><tr><td
->:b 2</td><td>Open #2 in this window</td></tr></table>
-<h2 id="completion">Auto-completion</h2>
-<table><tr><td
->Ctrl+n Ctrl+p (in insert mode)</td><td>Complete word</td></tr><tr><td
->Ctrl+x Ctrl+l</td><td>Complete line</td></tr><tr><td
->:set dictionary=dict</td><td>Define <em>dict</em> as a dictionnary</td></tr><tr><td
->Ctrl+x Ctrl+k</td><td>Complete with dictionnary</td></tr></table>
-<h2 id="marqueurs">Marks</h2>
-<table><tr><td>mk</td><td>Marks current position as <em>k</em></td></tr><tr><td
-></em>˜k</td><td>Moves cursor to mark <em>k</em></td></tr><tr><td
->d</em>™k</td><td>Delete all until mark <em>k</em></td></tr></table>
-<h2 id="abbr">Abbreviations</h2>
-<table><tr><td>:ab mail mail@provider.org</td><td>Define <em>mail</em> as abbreviation of <em>mail@provider.org</em></td></tr></table>
-<h2 id="indentation">Text indent</h2>
-<table><tr><td>:set autoindent</td><td>Turn on auto-indent</td></tr><tr><td
->:set smartindent</td><td>Turn on intelligent auto-indent</td></tr><tr><td
->:set shiftwidth=4</td><td>Defines 4 spaces as indent size</td></tr><tr><td
->ctrl-t, ctrl-d</td><td>Indent/un-indent in insert mode</td></tr><tr><td
->&gt;&gt;</td><td>Indent</td></tr><tr><td>&lt;&lt;</td><td>Un-indent</td></tr>
-</table>
-<h2 id="coloration">Syntax highlighting</h2>
-<table>
-<tr><td>:syntax on</td><td>Turn on syntax highlighting</td></tr>
-<tr><td>:syntax off</td><td>Turn off syntax highlighting</td></tr><tr><td>:set syntax=perl</td><td>Force syntax highlighting</td></tr>
-</table>
+| :e filename | Open _filename_ for edition |
+| :w | Save file |
+| :q | Exit Vim |
+| :w! | Write file and quit |
+
+## Search
+
+## Replace
+
+| /word | Search _word_ from top to bottom |
+| ?word | Search _word_ from bottom to top |
+| /jo[ha]n | Search _john_ or _joan_ |
+| /\< the | Search the, theatre or _then_ |
+| /the\> | Search _the_ or _breathe_ |
+| /\< the\> | Search _the_ |
+| /\< ¦.\> | Search all words of 4 letters |
+| /\/ | Search _fred_ but not _alfred_ or _frederick_ |
+| /fred\|joe | Search _fred_ or _joe_ |
+| /\<\d\d\d\d\> | Search exactly 4 digits |
+| /^\n\{3} | Find 3 empty lines |
+| :bufdo /searchstr/ | Search in all open files |
+
+| :%s/old/new/g | Replace all occurences of _old_ by _new_ in file |
+| :%s/old/new/gw | Replace all occurences with confirmation |
+| :2,35s/old/new/g | Replace all occurences between lines 2 and 35 |
+| :5,$s/old/new/g | Replace all occurences from line 5 to EOF |
+| :%s/^/hello/g | Replace the begining of each line by _hello_ |
+| :%s/$/Harry/g | Replace the end of each line by _Harry_ |
+| :%s/onward/forward/gi | Replace _onward_ by _forward_, case unsensitive |
+| :%s/ *$//g | Delete all white spaces |
+| :g/string/d | Delete all lines containing _string_ |
+| :v/string/d | Delete all lines containing which didn’t contain _string_ |
+| :s/Bill/Steve/ | Replace the first occurence of _Bill_ by _Steve_ in current line |
+| :s/Bill/Steve/g | Replace _Bill_ by _Steve_ in current line |
+| :%s/Bill/Steve/g | Replace _Bill_ by _Steve_ in all the file |
+| :%s/\r//g | Delete DOS carriage returns (^M) |
+| :%s/\r/\r/g | Transform DOS carriage returns in returns |
+| :%s#<[^>]\+>##g | Delete HTML tags but keeps text |
+| :%s/^\(.*\)\n\1$/\1/ | Delete lines which appears twice |
+| Ctrl+a | Increment number under the cursor |
+| Ctrl+x | Decrement number under cursor |
+| ggVGg? | Change text to Rot13 |
+
+## Case
+
+| Vu | Lowercase line |
+| VU | Uppercase line |
+| g~~ | Invert case |
+| vEU | Switch word to uppercase |
+| vE~ | Modify word case |
+| ggguG | Set all text to lowercase |
+| :set ignorecase | Ignore case in searches |
+| :set smartcase | Ignore case in searches excepted if an uppercase letter is used |
+| :%s/\<./\u&/g | Sets first letter of each word to uppercase |
+| :%s/\<./\l&/g | Sets first letter of each word to lowercase |
+| :%s/.*/\u& | Sets first letter of each line to uppercase |
+| :%s/.*/\l& | Sets first letter of each line to lowercase |
+
+## Read/Write files
+
+| :1,10 w outfile | Saves lines 1 to 10 in _outfile_ |
+| :1,10 w >> outfile | Appends lines 1 to 10 to _outfile_ |
+| :r infile | Insert the content of _infile_ |
+| :23r infile | Insert the content of _infile_ under line 23 |
+
+## File explorer
+
+| :e . | Open integrated file explorer |
+| :Sex | Split window and open integrated file explorer |
+| :browse e | Graphical file explorer |
+| :ls | List buffers |
+| :cd .. | Move to parent directory |
+| :args | List files |
+| :args *.php | Open file list |
+| :grep expression *.php | Returns a list of .php files contening _expression_ |
+| gf | Open file name under cursor |
+
+## Interact with Unix
+
+| :!pwd | Execute the _pwd_ unix command, then returns to Vi |
+| !!pwd | Execute the _pwd_ unix command and insert output in file |
+| :sh | Temporary returns to Unix |
+| $exit | Retourns to Vi |
+
+## Alignment
+
+| :%!fmt | Align all lines |
+| !}fmt | Align all lines at the current position |
+| 5!!fmt | Align the next 5 lines |
+
+## Tabs
+
+| :tabnew | Creates a new tab |
+| gt | Show next tab |
+| :tabfirst | Show first tab |
+| :tablast | Show last tab |
+| :tabm n(position) | Rearrange tabs |
+| :tabdo %s/foo/bar/g | Execute a command in all tabs |
+| :tab ball | Puts all open files in tabs |
+
+## Window spliting
+
+| :e filename | Edit _filename_ in current window |
+| :split filename | Split the window and open _filename_ |
+| ctrl-w up arrow | Puts cursor in top window |
+| ctrl-w ctrl-w | Puts cursor in next window |
+| ctrl-w_ | Maximise current window |
+| ctrl-w= | Gives the same size to all windows |
+| 10 ctrl-w+ | Add 10 lines to current window |
+| :vsplit file | Split window vertically |
+| :sview file | Same as **:split** in readonly mode |
+| :hide | Close current window |
+| :­nly | Close all windows, excepted current |
+| :b 2 | Open #2 in this window |
+
+## Auto-completion
+
+| Ctrl+n Ctrl+p (in insert mode) | Complete word |
+| Ctrl+x Ctrl+l | Complete line |
+| :set dictionary=dict | Define _dict_ as a dictionnary |
+| Ctrl+x Ctrl+k | Complete with dictionnary |
+
+## Marks
+
+| mk | Marks current position as _k_ |
+| ˜k | Moves cursor to mark _k_ |
+| d™k | Delete all until mark _k_ |
+
+## Abbreviations
+
+| :ab mail mail@provider.org | Define _mail_ as abbreviation of _mail@provider.org_ |
+
+## Text indent
+
+| :set autoindent | Turn on auto-indent |
+| :set smartindent | Turn on intelligent auto-indent |
+| :set shiftwidth=4 | Defines 4 spaces as indent size |
+| ctrl-t, ctrl-d | Indent/un-indent in insert mode |
+| >> | Indent |
+| << | Un-indent |
+
+## Syntax highlighting
+
+| :syntax on | Turn on syntax highlighting |
+| :syntax off | Turn off syntax highlighting |
+| :set syntax=perl | Force syntax highlighting |
