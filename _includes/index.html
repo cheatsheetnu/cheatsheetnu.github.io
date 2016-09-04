@@ -1,0 +1,148 @@
+---
+layout: post
+title: VI Commands
+---
+
+| :e filename | Open _filename_ for edition |
+| :w | Save file |
+| :q | Exit Vim |
+| :w! | Write file and quit |
+
+
+| /word | Search _word_ from top to bottom |
+| ?word | Search _word_ from bottom to top |
+| /jo[ha]n | Search _john_ or _joan_ |
+| /\< the | Search the, theatre or _then_ |
+| /the\> | Search _the_ or _breathe_ |
+| /\< the\> | Search _the_ |
+| /\< ¦.\> | Search all words of 4 letters |
+| /\/ | Search _fred_ but not _alfred_ or _frederick_ |
+| /fred\|joe | Search _fred_ or _joe_ |
+| /\<\d\d\d\d\> | Search exactly 4 digits |
+| /^\n\{3} | Find 3 empty lines |
+| :bufdo /searchstr/ | Search in all open files |
+
+| :%s/old/new/g | Replace all occurences of _old_ by _new_ in file |
+| :%s/old/new/gw | Replace all occurences with confirmation |
+| :2,35s/old/new/g | Replace all occurences between lines 2 and 35 |
+| :5,$s/old/new/g | Replace all occurences from line 5 to EOF |
+| :%s/^/hello/g | Replace the begining of each line by _hello_ |
+| :%s/$/Harry/g | Replace the end of each line by _Harry_ |
+| :%s/onward/forward/gi | Replace _onward_ by _forward_, case unsensitive |
+| :%s/ *$//g | Delete all white spaces |
+| :g/string/d | Delete all lines containing _string_ |
+| :v/string/d | Delete all lines containing which didn’t contain _string_ |
+| :s/Bill/Steve/ | Replace the first occurence of _Bill_ by _Steve_ in current line |
+| :s/Bill/Steve/g | Replace _Bill_ by _Steve_ in current line |
+| :%s/Bill/Steve/g | Replace _Bill_ by _Steve_ in all the file |
+| :%s/\r//g | Delete DOS carriage returns (^M) |
+| :%s/\r/\r/g | Transform DOS carriage returns in returns |
+| :%s#<[^>]\+>##g | Delete HTML tags but keeps text |
+| :%s/^\(.*\)\n\1$/\1/ | Delete lines which appears twice |
+| Ctrl+a | Increment number under the cursor |
+| Ctrl+x | Decrement number under cursor |
+| ggVGg? | Change text to Rot13 |
+
+## Case
+
+| Vu | Lowercase line |
+| VU | Uppercase line |
+| g~~ | Invert case |
+| vEU | Switch word to uppercase |
+| vE~ | Modify word case |
+| ggguG | Set all text to lowercase |
+| :set ignorecase | Ignore case in searches |
+| :set smartcase | Ignore case in searches excepted if an uppercase letter is used |
+| :%s/\<./\u&/g | Sets first letter of each word to uppercase |
+| :%s/\<./\l&/g | Sets first letter of each word to lowercase |
+| :%s/.*/\u& | Sets first letter of each line to uppercase |
+| :%s/.*/\l& | Sets first letter of each line to lowercase |
+
+## Read/Write files
+
+| :1,10 w outfile | Saves lines 1 to 10 in _outfile_ |
+| :1,10 w >> outfile | Appends lines 1 to 10 to _outfile_ |
+| :r infile | Insert the content of _infile_ |
+| :23r infile | Insert the content of _infile_ under line 23 |
+
+## File explorer
+
+| :e . | Open integrated file explorer |
+| :Sex | Split window and open integrated file explorer |
+| :browse e | Graphical file explorer |
+| :ls | List buffers |
+| :cd .. | Move to parent directory |
+| :args | List files |
+| :args *.php | Open file list |
+| :grep expression *.php | Returns a list of .php files contening _expression_ |
+| gf | Open file name under cursor |
+
+## Interact with Unix
+
+| :!pwd | Execute the _pwd_ unix command, then returns to Vi |
+| !!pwd | Execute the _pwd_ unix command and insert output in file |
+| :sh | Temporary returns to Unix |
+| $exit | Retourns to Vi |
+
+## Alignment
+
+| :%!fmt | Align all lines |
+| !}fmt | Align all lines at the current position |
+| 5!!fmt | Align the next 5 lines |
+
+## Tabs
+
+| :tabnew | Creates a new tab |
+| gt | Show next tab |
+| :tabfirst | Show first tab |
+| :tablast | Show last tab |
+| :tabm n(position) | Rearrange tabs |
+| :tabdo %s/foo/bar/g | Execute a command in all tabs |
+| :tab ball | Puts all open files in tabs |
+
+## Window spliting
+
+| :e filename | Edit _filename_ in current window |
+| :split filename | Split the window and open _filename_ |
+| ctrl-w up arrow | Puts cursor in top window |
+| ctrl-w ctrl-w | Puts cursor in next window |
+| ctrl-w_ | Maximise current window |
+| ctrl-w= | Gives the same size to all windows |
+| 10 ctrl-w+ | Add 10 lines to current window |
+| :vsplit file | Split window vertically |
+| :sview file | Same as **:split** in readonly mode |
+| :hide | Close current window |
+| :­nly | Close all windows, excepted current |
+| :b 2 | Open #2 in this window |
+
+## Auto-completion
+
+| Ctrl+n Ctrl+p (in insert mode) | Complete word |
+| Ctrl+x Ctrl+l | Complete line |
+| :set dictionary=dict | Define _dict_ as a dictionnary |
+| Ctrl+x Ctrl+k | Complete with dictionnary |
+
+## Marks
+
+| mk | Marks current position as _k_ |
+| ˜k | Moves cursor to mark _k_ |
+| d™k | Delete all until mark _k_ |
+
+## Abbreviations
+
+| :ab mail mail@provider.org | Define _mail_ as abbreviation of _mail@provider.org_ |
+
+## Text indent
+
+| :set autoindent | Turn on auto-indent |
+| :set smartindent | Turn on intelligent auto-indent |
+| :set shiftwidth=4 | Defines 4 spaces as indent size |
+| ctrl-t, ctrl-d | Indent/un-indent in insert mode |
+| >> | Indent |
+| << | Un-indent |
+
+## Syntax highlighting
+
+| :syntax on | Turn on syntax highlighting |
+| :syntax off | Turn off syntax highlighting |
+| :set syntax=perl | Force syntax highlighting |

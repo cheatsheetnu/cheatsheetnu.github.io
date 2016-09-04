@@ -23,6 +23,11 @@ markdown: kramdown
 
 kramdown:
   parse_block_html: true
+  auto_ids: true
+  input: GFM
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 gems:
   - jekyll-paginate
@@ -30,3 +35,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+#  - jekyll-multiple-languages
+
+#languages:          ['nl', 'en']
+#language_default:   'nl'
