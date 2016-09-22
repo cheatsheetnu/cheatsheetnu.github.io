@@ -35,7 +35,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-#  - jekyll-multiple-languages
+  - jekyll-multiple-languages
 
-#languages:          ['nl', 'en']
-#language_default:   'nl'
+languages:          ['nl', 'en']
+language_default:   'en'
