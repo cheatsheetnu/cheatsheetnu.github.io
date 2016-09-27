@@ -125,10 +125,10 @@ git push -u origin master</code></pre>
 </table>
 <h3>Ignoring Patterns</h3>
 <h4>Preventing unintentional staging or committing files</h4>
-<p>logs/
-*.notes
-pattern*/
-Save a file with desired patterns as .gitignore with either direct string matches or wildcard globs.</p>
+<p><em>logs/</em></p>
+<p><em>*.notes</em></p>
+<p><em>pattern*/</em></p>
+<p>Save a file with desired patterns as .gitignore with either direct string matches or wildcard globs.</p>
 <table>
 	<tbody>
 		<tr>
